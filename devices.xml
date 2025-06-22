@@ -13,4 +13,6 @@
 <project path="device/sony/akatsuki" name="device-sony-akatsuki" groups="device" remote="fork" revision="u-mr1" />
 <project path="device/sony/apollo" name="device-sony-apollo" groups="device" remote="fork" revision="u-mr1" />
 
+<project path="vendor/sony/tama" name="vendor-sony-tama" groups="device" remote="fork" revision="master" />
+
 </manifest>
