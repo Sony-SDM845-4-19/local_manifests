@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="cubbins" fetch="https://github.com/bartcubbins/" />
+<remote name="fork" fetch="https://github.com/Sony-SDM845-4-19/" />
+
+<project path="kernel/sony/msm-5.4/common-headers" name="kernel-sony-msm-5.4-headers" groups="device" remote="fork" revision="aosp/LA.UM.9.16.r1" />
+<project path="kernel/sony/msm-5.4/common-kernel" name="kernel-sony-msm-5.4-common" groups="device" remote="fork" revision="aosp/LA.UM.9.16.r1" clone-depth="1" />
+
+<project path="kernel/sony/msm-5.4/kernel" name="kernel_sony_sdm845-5.4" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+
+<project path="kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/fw-api" name="kernel_sony_sdm845-5.4_wlan_fw-api" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="kernel_sony_sdm845-5.4_wlan_qca-wifi-host-cmn" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="kernel_sony_sdm845-5.4_wlan_qcacld-3.0" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+
+<project path="kernel/sony/msm-5.4/kernel/techpack/audio" name="kernel_sony_sdm845-5.4_techpack_audio" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/techpack/camera" name="kernel_sony_sdm845-5.4_techpack_camera" groups="device" remote="cubbins" revision="LA.UM.9.1.1.c25-01100-RENNELL.QSSI12c33.0" />
+<project path="kernel/sony/msm-5.4/kernel/techpack/dataipa" name="kernel_sony_sdm845-5.4_techpack_dataipa" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/techpack/datarmnet" name="kernel_sony_sdm845-5.4_techpack_datarmnet" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/techpack/datarmnet-ext" name="kernel_sony_sdm845-5.4_techpack_datarmnet-ext" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<project path="kernel/sony/msm-5.4/kernel/techpack/display" name="kernel_sony_sdm845-5.4_techpack_display" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />
+<!--<project path="kernel/sony/msm-5.4/kernel/techpack/video" name="kernel-techpack-video" groups="device" remote="cubbins" revision="LA.UM.9.16.r1-18200-MANNAR.QSSI15.0" />-->
+
+</manifest>
