@@ -23,4 +23,5 @@
     <remove-project name="platform/packages/apps/Car/SystemUpdater" />
     <!-- tools/security depends on carwatchdogd_defaults etc -->
     <!-- <remove-project name="platform/packages/services/Car" /> -->
+    <remove-project name="platform/packages/modules/Connectivity" />
 </manifest>
